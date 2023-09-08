@@ -1,0 +1,431 @@
+table#tabel1{
+    border: solid 1pt;
+    width:60%;
+    text-align: center;
+}
+td{
+    border: solid 2pt;
+}
+
+table#tabel2{
+    border: solid green 3pt;
+    width:60%;
+    text-align: center;
+    height: 200px;
+}
+td{
+    border: solid 2pt;
+}
+
+
+table#tabel3{
+    border: solid red 2pt;
+    width:60%;
+    text-align: center;
+}
+td{
+    border: solid 2pt;
+}
+
+table#tabel4{
+    border: solid black 2pt;
+    width:40%;
+    height: 400px;
+    text-align: center;
+}
+td#td1{
+    border: solid 2pt;
+    background-color: #e37f7f;
+}
+td#td2{
+    border: solid 2pt;
+    background-color: lightblue;
+}
+td#td3{
+    border: solid 2pt;
+    background-color: lightgreen;
+}
+td#td4{
+    border: solid 2pt;
+    background-color:lightgoldenrodyellow;
+}
+td#td5{
+    border: solid 2pt;
+    background-color: lightskyblue;
+}
+td#td6{
+    border: solid 2pt;
+    background-color: lightpink;
+}
+td#td7{
+    border: solid 2pt;
+    background-color: hotpink;
+}
+td#td8{
+    border: solid 2pt;
+    background-color: #9977ae;
+}
+/*Eesti lipp*/
+table#eesti
+{ width:330px;
+  height: 210px;
+   border: 1pt solid black;
+    border-spacing: 0;
+    position: absolute;
+    left:50px;
+    top:100px;
+}
+/*1.rida*/
+#eesti tr:nth-child(1)
+{
+    background-color: #2447b1;
+}
+/*2.rida*/
+#eesti tr:nth-child(2)
+{
+    background-color: #000000;
+}
+
+/*3.rida*/
+#eesti tr:nth-child(3)
+{
+    background-color: #ffffff;
+}
+
+table#germany
+{ width:330px;
+    height: 210px;
+    border: 1pt solid black;
+    border-spacing: 0;
+    border:0;
+    position: absolute;
+    left:400px;
+    top:100px;
+}
+/*1.rida*/
+#germany tr:nth-child(1) td:nth-child(1)
+{
+    background-color: #000000;
+    border:0;
+}
+/*2.rida*/
+#germany tr:nth-child(2) td:nth-child(1)
+{
+    background-color: #ea0808;
+    border:0;
+}
+/*3.rida*/
+#germany tr:nth-child(3) td:nth-child(1)
+{
+    background-color: yellow;
+    border:0;
+}
+
+table#irish
+{ width:330px;
+    height: 210px;
+    border: 1pt solid black;
+    border-spacing: 0;
+    position: absolute;
+    left:750px;
+    top:100px;
+}
+/*1.rida 1.lahter*/
+#irish tr:nth-child(1) td:nth-child(1)
+{
+    background-color: rgba(72, 142, 68, 0.96);
+    border:0;
+}
+/*2.rida 2.lahter*/
+#irish tr:nth-child(1) td:nth-child(2)
+{
+    background-color: #ffffff;
+    border:0;
+}
+/*3.rida 3.lahter*/
+#irish tr:nth-child(1) td:nth-child(3)
+{
+    background-color: #ea9708;
+    border:0;
+}
+
+table#denmark
+{ width:330px;
+    height: 210px;
+    border: 1pt solid black;
+    border-spacing: 0;
+    position: absolute;
+    left:1100px;
+    top:100px;
+}
+/*1.rida 1.lahter 3.lahter*/
+#denmark tr:nth-child(1) td:nth-child(1),
+#denmark tr:nth-child(3) td:nth-child(1)
+{
+    background-color: #8d1e25;
+    width:73px;
+    border:0;
+
+}
+/*1.rida 1.lahter 3.lahter*/
+#denmark tr:nth-child(1) td:nth-child(2),
+#denmark  tr:nth-child(3) td:nth-child(2)
+{
+    background-color: #ffffff;
+    width:52px;
+    border:0;
+
+}
+/*1.rida 1.lahter 3.lahter*/
+#denmark tr:nth-child(1) td:nth-child(3),
+#denmark tr:nth-child(3) td:nth-child(3)
+{
+    background-color: #8d1e25;
+    border:0;
+
+}
+
+#denmark tr:nth-child(2) td:nth-child(1)
+{
+    background-color: #ffffff;
+    height: 50px;
+    border:0;
+}
+table#iceland
+{ width:330px;
+    height: 210px;
+    border: 1pt solid black;
+    border-spacing: 0;
+    position: absolute;
+    left:1450px;
+    top:100px;
+}
+
+#iceland tr:nth-child(3) td:nth-child(1)
+{
+    background-color: #ea0808;
+    height: 8%;
+    width: 9%;
+    border:0;
+
+}
+
+#iceland tr:nth-child(1) td:nth-child(1)
+{
+    background-color: #2447b1;
+    height: 10%;
+    width:20%;
+    border:0;
+}
+
+#iceland tr:nth-child(1) td:nth-child(2)
+{
+    background-color: #ffffff;
+    width:5%;
+    border:0;
+}
+
+#iceland tr:nth-child(1) td:nth-child(3)
+{
+    background-color: #ea0808;
+    width:19%;
+    border:0;
+}
+
+#iceland tr:nth-child(1) td:nth-child(4)
+{
+    background-color: #ffffff;
+    height: 10%;
+    width:5%;
+    border:0;
+}
+
+#iceland tr:nth-child(1) td:nth-child(5)
+{
+    background-color: #2447b1;
+
+
+    border:0;
+}
+
+#iceland tr:nth-child(2) td:nth-child(1)
+{
+    background-color: #ffffff;
+    height:  2px;
+    border:0;
+}
+
+#iceland tr:nth-child(2) td:nth-child(2)
+{
+    background-color: #ffffff;
+    height:  2px;
+
+    border:0;
+}
+
+#iceland tr:nth-child(2) td:nth-child(3)
+{
+    background-color: #ea0808;
+    height:  2px;
+    border:0;
+}
+
+#iceland tr:nth-child(2) td:nth-child(4)
+{
+    background-color: #ffffff;
+    height:   2px;
+
+    border:0;
+}
+
+#iceland tr:nth-child(2) td:nth-child(5)
+{
+    background-color: #ffffff;
+    height:  2px;
+    border:0;
+}
+
+#iceland tr:nth-child(4) td:nth-child(1)
+{
+    background-color: #ffffff;
+    height: 2px;
+    border:0;
+}
+
+#iceland tr:nth-child(4) td:nth-child(2)
+{
+    background-color: #ffffff;
+    height: 2px;
+    border:0;
+}
+
+#iceland tr:nth-child(4) td:nth-child(3)
+{
+    background-color: #ea0808;
+    height:  3.5px;
+    border:0;
+}
+
+#iceland tr:nth-child(4) td:nth-child(4)
+{
+    background-color: #ffffff;
+    height:  2px;
+
+    border:0;
+}
+
+#iceland tr:nth-child(4) td:nth-child(5)
+{
+    background-color: #ffffff;
+    border:0;
+}
+
+#iceland tr:nth-child(5) td:nth-child(1)
+{
+    background-color: #2447b1;
+    height: 20px;
+    border:0;
+}
+
+#iceland tr:nth-child(5) td:nth-child(2)
+{
+    background-color: #ffffff;
+    height: 20px;
+    width:7px;
+    border:0;
+}
+
+#iceland tr:nth-child(5) td:nth-child(3)
+{
+    background-color: #ea0808;
+    height:  20px;
+    border:0;
+}
+
+#iceland tr:nth-child(5) td:nth-child(4)
+{
+    background-color: #ffffff;
+    height:  20px;
+    width:7px;
+    border:0;
+}
+
+#iceland tr:nth-child(5) td:nth-child(5)
+{
+    background-color: #2447b1;
+    height:  20px;
+    border:0;
+}
+
+table#tar
+{ width:330px;
+    height: 210px;
+    border: 1pt solid black;
+    border-spacing: 0;
+    position: absolute;
+    left:1800px;
+    top:100px;
+}
+#tar tr:nth-child(1) td:nth-child(1)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+#tar tr:nth-child(2) td:nth-child(1)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+#tar tr:nth-child(2) td:nth-child(2)
+{ background-color:#6e6162;
+    height:  30px;
+    border:0;}
+#tar tr:nth-child(2) td:nth-child(3)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+#tar tr:nth-child(2) td:nth-child(4)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+#tar tr:nth-child(2) td:nth-child(5)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+
+#tar tr:nth-child(3) td:nth-child(1)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
+
+#tar tr:nth-child(4) td:nth-child(1)
+{ background-color: #a01a35;
+    height:  25px;
+
+    border:0;}
+#tar tr:nth-child(4) td:nth-child(2)
+{ background-color: #6e6162;
+    height:  25px;
+    width: 30px;
+    border:0;}
+
+
+#tar tr:nth-child(4) td:nth-child(3)
+{ background-color: #6e6162;
+    height:  25px;
+    border:0;}
+
+#tar tr:nth-child(5) td:nth-child(1)
+{ background-color: #a01a35;
+    height:  30px;
+
+    border:0;}
+#tar tr:nth-child(5) td:nth-child(2)
+{ background-color: #6e6162;
+    height:  30px;
+
+    border:0;}
+
+
+#tar tr:nth-child(5) td:nth-child(3)
+{ background-color: #a01a35;
+    height:  30px;
+    border:0;}
